@@ -6,14 +6,15 @@ A simplified Python-based crypto trading bot that lets you place Binance Futures
 
 ## Features
 
-- 🔐 Secure API credential handling (manual or .env)
-- ✅ Supports Market, Limit, Stop, and Stop-Market order types
-- 🔄 Buy/Sell support for USDT-M pairs (e.g., BTCUSDT)
-- 📊 Real-time open order viewing in UI
-- 📦 Command-line interface: main.py
-- 🖥️ Streamlit-based frontend: app.py
-- 📜 Logging of API responses & errors (bot.log)
-- ⚙️ Built using official Binance API (python-binance)
+- ✨ Binance Testnet Integration - Connects securely to https://testnet.binancefuture.com using official API
+- ✨ Dual Interface System - Offers both CLI (main.py) and Streamlit UI (app.py) for trading
+- ✨ Order Execution - Supports Market, Limit, and Stop orders (Bonus) with buy/sell functionality
+- ✨ Secure Credential Management - Uses .env file or manual input for API key handling
+- ✨ Comprehensive Logging - Automatically records all activity in bot.log with timestamps
+- ✨ Input Validation - Validates all user inputs before order execution
+- ✨ Error Handling - Gracefully manages API errors and trading exceptions
+- ✨ Real-time Monitoring - Streamlit UI displays open orders and account balance
+- ✨ Modular Architecture - Logic isolated in bot.py for maintainability
 
 ---
 
